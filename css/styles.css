@@ -3,9 +3,6 @@
     padding: 0;
     box-sizing: border-box;
 }
-html{
-    scroll-behavior: smooth;
-}
 ul{
     list-style: none;
 }
@@ -85,10 +82,10 @@ ul{
     color: #fff;
     transition: all .3s ease-in-out;
 }
-.navbar .links ul li a{
+/* .navbar .links ul li a{
     text-decoration: none;
     color: #fff;
-}
+} */
 .active{
     color: #b30068 !important;
 }
@@ -431,10 +428,13 @@ ul{
     padding: 30px 0;
     overflow: hidden;
 }
+.contact .container{
+    display:  flex;
+    flex-wrap: wrap;
+}
 
 .contact .left{
-    float: left;
-    width: 55%;
+    width: 500px;
     height: 100%;
     padding: 20px;
 }
@@ -460,13 +460,15 @@ ul{
     margin: 30px 0;
     padding: 10px;
     overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 .contact .left .social .icon{
-    width: calc(95%/4);
+    width: 100px;
     /* background-color: rgb(226, 226, 228); */
     margin: .5%;
     padding: 10px;
-    float: left;
     text-align: center;
 }
 .contact .left .social .icon img{
@@ -490,7 +492,7 @@ ul{
 
 .contact .contact-us{
     float: right;
-    width: 40%;
+    width: 500px;
     height: 100%;
     padding: 20px;
     padding-left: 10%;
@@ -499,7 +501,7 @@ ul{
 
 .contact .contact-us input{
     display: block;
-    width: 80%;
+    width: 100%;
     /* border: none; */
     border: 1px solid rgb(158, 158, 158);
     border-radius: 5px;
