@@ -1,3 +1,4 @@
+
 let links_list = document.getElementById("links-list"),
     link_items = ["home", "about", "catigories", "testimonials", "contact"];
 
